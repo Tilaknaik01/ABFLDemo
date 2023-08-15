@@ -1,0 +1,10 @@
+target/*
+/.idea/*
+/target/classes/*
+ExtentReport/*
+/target/classes/
+*.class
+.idea/
+.idea
+.idea/*
+.idea/workspace.xml
