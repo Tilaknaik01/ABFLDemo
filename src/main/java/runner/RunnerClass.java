@@ -1,15 +1,11 @@
 package runner;
 
 import cucumber.api.CucumberOptions;
-import cucumber.api.testng.AbstractTestNGCucumberTests;
-import cucumber.api.testng.CucumberFeatureWrapper;
-import org.junit.runner.RunWith;
-import org.testng.annotations.Test;
+import io.cucumber.junit.Cucumber;
 
-//@RunWith(Cucumber.class)
-@Test
+@RunWith(Cucumber.class)
 @CucumberOptions(features = "src/test/resources/featureFIles/FetchAnchorSummary.feature", glue = "step.definitions")
 
-public class RunnerClass extends AbstractTestNGCucumberTests {
+public class RunnerClass {
 
 }

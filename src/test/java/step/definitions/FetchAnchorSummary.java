@@ -5,7 +5,7 @@ import io.restassured.RestAssured;
 import io.restassured.response.Response;
 
 public class FetchAnchorSummary {
-    private Response response;
+    private Response response;//private
     @cucumber.api.java.en.Given("^Providing the autharization$")
     public void providingTheAutharization() {
         RestAssured.given().header("Authorization", "Bearer "+token);

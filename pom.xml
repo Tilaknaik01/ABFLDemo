@@ -87,13 +87,13 @@
         <type>pom</type>
     </dependency>
 
-    <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-java -->
+    <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
     <dependency>
-        <groupId>info.cukes</groupId>
+        <groupId>io.cucumber</groupId>
         <artifactId>cucumber-java</artifactId>
-        <version>1.2.6</version>
-        <type>pom</type>
+        <version>7.13.0</version>
     </dependency>
+
 
     <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-testng -->
     <dependency>
@@ -102,14 +102,20 @@
         <version>1.2.5</version>
     </dependency>
 
-    <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-junit -->
+    <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
     <dependency>
-        <groupId>info.cukes</groupId>
+        <groupId>io.cucumber</groupId>
         <artifactId>cucumber-junit</artifactId>
-        <version>1.2.6</version>
-        <type>pom</type>
-        <scope>test</scope>
+        <version>7.13.0</version>
     </dependency>
+
+    <!-- https://mvnrepository.com/artifact/junit/junit -->
+    <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.13.2</version>
+    </dependency>
+
 
 
 
